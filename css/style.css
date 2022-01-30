@@ -43,7 +43,7 @@ li {
 }
 
 .preview img {
-  padding: 3.8em 3.1em 0;
+  padding: 2em 3.1em 0;
   height: 37.6em;
   width: 31.3em;
 }
@@ -75,18 +75,14 @@ li {
   letter-spacing: 0;
 }
 
-.preview h1 ~ div {
+.preview h1 ~ .grey__text {
   color: #8d8d8d;
   letter-spacing: 0;
   line-height: 2.2rem;
   font-size: 1.5rem;
 }
 
-.preview h1 ~ div > span {
-  width: 100%;
-}
-
-.preview h1 ~ div a {
+.preview h1 ~ .grey__text a {
   text-decoration: underline;
 }
 
@@ -108,10 +104,10 @@ li {
 
 .preview .next__btn a {
   width: 100%;
-  padding: 1.5em 0;
+  padding: 1.3em 0;
   color: #fff;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.8em;
   font-weight: bold;
   cursor: pointer;
 }
@@ -134,7 +130,7 @@ li {
 .preview .skip__btn a {
   color: #e24e59;
   text-decoration: none;
-  font-size: 1.2em;
+  font-size: 1.8em;
   font-weight: bold;
 }
 

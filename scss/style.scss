@@ -39,7 +39,7 @@ $text_grey: #8d8d8d;
     align-items: center;
     text-align: center;
     img {
-        padding: 3.8em 3.1em 0;
+        padding: 2em 3.1em 0;
         height: 37.6em;
         width: 31.3em;
 
@@ -62,15 +62,12 @@ $text_grey: #8d8d8d;
         font-weight: bold;
         font-size: 2.4rem;
         letter-spacing: 0;
-        ~ div {
+        ~.grey__text{
             color: $text_grey;
             letter-spacing: 0;
             line-height: 2.2rem;
             font-size: 1.5rem;
 
-            > span {
-                width: 100%;
-            }
             a {
                 text-decoration: underline;
             }
@@ -86,10 +83,10 @@ $text_grey: #8d8d8d;
         justify-content: center;
         a {
             width: 100%;
-            padding: 1.5em 0;
+            padding: 1.3em 0;
             color: #fff;
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1.8em;
             font-weight: bold;
             cursor: pointer;
         }
@@ -104,7 +101,7 @@ $text_grey: #8d8d8d;
         a {
             color: $pink;
             text-decoration: none;
-            font-size: 1.2em;
+            font-size: 1.8em;
             font-weight: bold;
         }
     }
