@@ -1,10 +1,9 @@
 html, body {
   padding: 0;
   margin: 0;
-  overflow: hidden;
-  font-family: sans-serif;
   height: 100vh;
   overflow: hidden;
+  font-family: sans-serif;
 }
 
 html {
@@ -21,7 +20,8 @@ a {
   text-decoration: none;
 }
 
-ul, li {
+ul,
+li {
   list-style: none;
 }
 
@@ -66,11 +66,11 @@ ul, li {
   width: 1em;
   height: 1em;
   border-radius: 50%;
-  background-color: #D6D6D6;
+  background-color: #d6d6d6;
 }
 
 .section1 img ~ .rounds :first-child {
-  background-color: #E24E59;
+  background-color: #e24e59;
 }
 
 .section1 h1 {
@@ -80,7 +80,7 @@ ul, li {
 }
 
 .section1 h1 ~ div {
-  color: #8D8D8D;
+  color: #8d8d8d;
   letter-spacing: 0;
   line-height: 2.2rem;
   font-size: 1.5rem;
@@ -99,7 +99,7 @@ ul, li {
   border-radius: 1.6rem;
   margin: 0 2.5em;
   padding: 1.5em 0;
-  background-color: #E24E59;
+  background-color: #e24e59;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -112,7 +112,7 @@ ul, li {
 }
 
 .section1 .next__btn a {
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
@@ -120,6 +120,7 @@ ul, li {
 
 .section1 .skip__btn {
   width: 85%;
+  border-radius: 1.6rem;
   margin: 0 2.5em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -133,7 +134,7 @@ ul, li {
 }
 
 .section1 .skip__btn a {
-  color: #E24E59;
+  color: #e24e59;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;

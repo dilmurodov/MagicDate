@@ -1,34 +1,36 @@
-html, body{
+html, body {
     padding: 0;
     margin: 0;
-    overflow: hidden;
-    font-family: sans-serif;
     height: 100vh;
     overflow: hidden;
+    font-family: sans-serif;
 }
-html{
+
+html {
     font-size: 62.5%;
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
 }
-a{
+a {
     color: inherit;
     text-decoration: none;
 }
 
-ul, li{
+ul,
+li {
     list-style: none;
 }
 // section1
 
-$pink: #E24E59;
+$pink: #e24e59;
 $black: #080808;
-$grey: #D6D6D6;
-$text_grey: #8D8D8D;
+$grey: #d6d6d6;
+$text_grey: #8d8d8d;
 
-.section1{
+.section1 {
     height: 100vh;
     overflow: hidden;
     color: $black;
@@ -36,47 +38,47 @@ $text_grey: #8D8D8D;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    img{
+    img {
         padding: 3.8em 3.1em 0;
         height: 37.6em;
         width: 31.3em;
 
-        ~.rounds{
+        ~ .rounds {
             margin-top: 2.5em;
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 1em;
-            > span{
+            > span {
                 width: 1em;
                 height: 1em;
                 border-radius: 50%;
                 background-color: $grey;
             }
-            :first-child{
+            :first-child {
                 background-color: $pink;
             }
         }
     }
-    h1{
+    h1 {
         font-weight: bold;
         font-size: 2.4rem;
         letter-spacing: 0;
-        ~div{
+        ~ div {
             color: $text_grey;
             letter-spacing: 0;
             line-height: 2.2rem;
             font-size: 1.5rem;
-            
-            >span{
+
+            > span {
                 width: 100%;
             }
-            a{
+            a {
                 text-decoration: underline;
             }
         }
     }
-    .next__btn{
+    .next__btn {
         width: 85%;
         border-radius: 1.6rem;
         margin: 0 2.5em;
@@ -85,26 +87,25 @@ $text_grey: #8D8D8D;
         display: flex;
         align-items: center;
         justify-content: center;
-        a{
-            color: #FFF;
+        a {
+            color: #fff;
             text-decoration: none;
             font-size: 1.2em;
             font-weight: bold;
         }
     }
-    .skip__btn{
+    .skip__btn {
         width: 85%;
+        border-radius: 1.6rem;
         margin: 0 2.5em;
         display: flex;
         align-items: center;
         justify-content: center;
-        a{
+        a {
             color: $pink;
             text-decoration: none;
             font-size: 1.2em;
             font-weight: bold;
         }
     }
-    
 }
-
