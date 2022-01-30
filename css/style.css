@@ -1,0 +1,121 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul, li {
+  list-style: none;
+}
+
+section {
+  height: 100vh;
+}
+
+.section1 {
+  color: #080808;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.section1 img {
+  padding: 7.8em 3.1em 0;
+  height: 37.6em;
+  width: 31.3em;
+}
+
+.section1 img ~ .rounds {
+  margin-top: 2.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 1em;
+}
+
+.section1 img ~ .rounds > span {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #D6D6D6;
+}
+
+.section1 img ~ .rounds :first-child {
+  background-color: #E24E59;
+}
+
+.section1 h1 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  letter-spacing: 0;
+}
+
+.section1 h1 ~ div {
+  color: #8D8D8D;
+  letter-spacing: 0;
+  line-height: 2.2rem;
+  font-size: 1.5rem;
+}
+
+.section1 h1 ~ div > span {
+  width: 100%;
+}
+
+.section1 h1 ~ div a {
+  text-decoration: underline;
+}
+
+.section1 .next__btn {
+  width: 85%;
+  border-radius: 1.6rem;
+  color: #fff;
+  margin: 0 2.5em;
+  padding: 1.5em 0;
+  background-color: #E24E59;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section1 .next__btn a {
+  color: #FFF;
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: bold;
+}
