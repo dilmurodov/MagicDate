@@ -31,6 +31,8 @@ $grey: #d6d6d6;
 $text_grey: #8d8d8d;
 
 .preview {
+    position: relative;
+    margin-bottom: 10em;
     height: 100vh;
     overflow: hidden;
     color: $black;
@@ -38,6 +40,11 @@ $text_grey: #8d8d8d;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    .btns{
+        position: absolute;
+        width: 100%;
+        bottom: 10em;
+    }
     img {
         padding: 2em 3.1em 0;
         height: 37.6em;

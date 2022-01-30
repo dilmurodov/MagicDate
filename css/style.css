@@ -26,6 +26,8 @@ li {
 }
 
 .preview {
+  position: relative;
+  margin-bottom: 10em;
   height: 100vh;
   overflow: hidden;
   color: #080808;
@@ -40,6 +42,12 @@ li {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+}
+
+.preview .btns {
+  position: absolute;
+  width: 100%;
+  bottom: 10em;
 }
 
 .preview img {
