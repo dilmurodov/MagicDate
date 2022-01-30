@@ -94,7 +94,6 @@ li {
   width: 85%;
   border-radius: 1.6rem;
   margin: 0 2.5em;
-  padding: 1.5em 0;
   background-color: #e24e59;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,10 +107,13 @@ li {
 }
 
 .preview .next__btn a {
+  width: 100%;
+  padding: 1.5em 0;
   color: #fff;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .preview .skip__btn {
