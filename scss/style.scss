@@ -1,7 +1,6 @@
 html, body{
     padding: 0;
     margin: 0;
-    height: 100%;
     overflow: hidden;
     font-family: sans-serif;
 }
@@ -27,10 +26,9 @@ $black: #080808;
 $grey: #D6D6D6;
 $text_grey: #8D8D8D;
 
-section{
-    height: 100vh;
-}
 .section1{
+    height: 80vh;
+    overflow: hidden;
     color: $black;
     display: flex;
     flex-direction: column;

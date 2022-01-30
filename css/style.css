@@ -1,7 +1,6 @@
 html, body {
   padding: 0;
   margin: 0;
-  height: 100%;
   overflow: hidden;
   font-family: sans-serif;
 }
@@ -24,11 +23,9 @@ ul, li {
   list-style: none;
 }
 
-section {
-  height: 100vh;
-}
-
 .section1 {
+  height: 80vh;
+  overflow: hidden;
   color: #080808;
   display: -webkit-box;
   display: -ms-flexbox;
