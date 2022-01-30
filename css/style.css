@@ -25,7 +25,7 @@ li {
   list-style: none;
 }
 
-.section1 {
+.preview {
   height: 100vh;
   overflow: hidden;
   color: #080808;
@@ -42,13 +42,13 @@ li {
   text-align: center;
 }
 
-.section1 img {
+.preview img {
   padding: 3.8em 3.1em 0;
   height: 37.6em;
   width: 31.3em;
 }
 
-.section1 img ~ .rounds {
+.preview img ~ .rounds {
   margin-top: 2.5em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -62,39 +62,35 @@ li {
   gap: 1em;
 }
 
-.section1 img ~ .rounds > span {
+.preview img ~ .rounds > span {
   width: 1em;
   height: 1em;
   border-radius: 50%;
   background-color: #d6d6d6;
 }
 
-.section1 img ~ .rounds :first-child {
-  background-color: #e24e59;
-}
-
-.section1 h1 {
+.preview h1 {
   font-weight: bold;
   font-size: 2.4rem;
   letter-spacing: 0;
 }
 
-.section1 h1 ~ div {
+.preview h1 ~ div {
   color: #8d8d8d;
   letter-spacing: 0;
   line-height: 2.2rem;
   font-size: 1.5rem;
 }
 
-.section1 h1 ~ div > span {
+.preview h1 ~ div > span {
   width: 100%;
 }
 
-.section1 h1 ~ div a {
+.preview h1 ~ div a {
   text-decoration: underline;
 }
 
-.section1 .next__btn {
+.preview .next__btn {
   width: 85%;
   border-radius: 1.6rem;
   margin: 0 2.5em;
@@ -111,14 +107,14 @@ li {
           justify-content: center;
 }
 
-.section1 .next__btn a {
+.preview .next__btn a {
   color: #fff;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
 }
 
-.section1 .skip__btn {
+.preview .skip__btn {
   width: 85%;
   border-radius: 1.6rem;
   margin: 0 2.5em;
@@ -133,9 +129,29 @@ li {
           justify-content: center;
 }
 
-.section1 .skip__btn a {
+.preview .skip__btn a {
   color: #e24e59;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: bold;
+}
+
+.section1 .rounds span:nth-child(1) {
+  background-color: #e24e59;
+}
+
+.section2 img {
+  width: 105%;
+}
+
+.section2 .rounds span:nth-child(2) {
+  background-color: #e24e59;
+}
+
+.section3 img {
+  width: 45em;
+}
+
+.section3 .rounds span:nth-child(3) {
+  background-color: #e24e59;
 }

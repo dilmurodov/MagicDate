@@ -30,7 +30,7 @@ $black: #080808;
 $grey: #d6d6d6;
 $text_grey: #8d8d8d;
 
-.section1 {
+.preview {
     height: 100vh;
     overflow: hidden;
     color: $black;
@@ -55,9 +55,7 @@ $text_grey: #8d8d8d;
                 border-radius: 50%;
                 background-color: $grey;
             }
-            :first-child {
-                background-color: $pink;
-            }
+
         }
     }
     h1 {
@@ -107,5 +105,26 @@ $text_grey: #8d8d8d;
             font-size: 1.2em;
             font-weight: bold;
         }
+    }
+}
+.section1 {
+    .rounds span:nth-child(1){
+        background-color: $pink;
+    }
+}
+.section2 {
+    img{
+        width: 105%;
+    }
+    .rounds span:nth-child(2){
+        background-color: $pink;
+    }
+}
+.section3 {
+    img{
+        width: 45em;
+    }
+    .rounds span:nth-child(3){
+        background-color: $pink;
     }
 }
